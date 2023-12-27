@@ -5,9 +5,9 @@ import Home from './Home/Home';
 function App() {
   return (
     <>
-      <Router>
-        <Routes basename="/ReduxTodo">
-          <Route path='/' element={<Home />} />
+      <Router  basename="/my-todo">
+        <Routes>
+          <Route exact path='/' element={<Home />} />
         </Routes>
       </Router>
     </>
