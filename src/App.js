@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Router>
-        <Routes>
+        <Routes basename="/ReduxTodo">
           <Route path='/' element={<Home />} />
         </Routes>
       </Router>
