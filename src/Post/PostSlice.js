@@ -2,9 +2,9 @@ import { createSlice, nanoid } from "@reduxjs/toolkit";
 
 
 const initialState = [
-    { id: 1, todo: "goto grosary shop", date: "2023-12-26T15:17:55.811Z", status: true },
-    { id: 2, todo: "complet the react project at 11:00 am", date: "2023-12-26T11:11.55.811Z", status: true },
-    { id: 3, todo: "send an email to pooja", date: "2023-11-26T15:17:55.811Z", status: true }
+    { id: 1, todo: "Plan a workout routine for the week", date: "2023-12-26T15:17:55.811Z", status: true },
+    { id: 2, todo: "Install Windows 11 on the new laptop", date: "2023-12-26T11:11.55.811Z", status: true },
+    { id: 3, todo: "Send an email tomorrow to Ajay", date: "2023-11-26T15:17:55.811Z", status: true }
 ]
 
 const postSlice = createSlice({
