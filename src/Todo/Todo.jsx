@@ -6,6 +6,7 @@ import { EditTodo, remove, updateTodo } from '../Post/PostSlice';
 import { FaCheck } from "react-icons/fa";
 import { FaPen } from "react-icons/fa6";
 import { IoMdCloseCircle } from "react-icons/io";
+import Audio from '../Audio';
 
 const Todo = ({ item }) => {
     const dispatch = useDispatch();
@@ -52,7 +53,7 @@ const Todo = ({ item }) => {
 
     return (
         <>
-
+            {item.status === false ? <Audio /> : null}
             <div className='todo-main-div'>
                 {status}
                 <div className='time'> <Time timestamp={item.date} /></div>
